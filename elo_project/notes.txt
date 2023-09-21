@@ -1,0 +1,43 @@
+week vs day problem, the weeks weren't in order and there were a lot of games that were made up
+issues with ties
+new teams entering the league
+teams at the top dominating, had to adjust sov function
+https://handballranking.com/About
+explain caluclate_expected
+
+manual data entry for late 2019 because source didn't work
+
+basically no variable I change has a noticeable affect on the accuracy of the model
+
+try to get autocorrelation working, model doesn't work in 50/50 cases and that's where it needs to work the best 
+
+changing of K
+changing of threshold to decide when to best
+contact enetodds
+bet/not bet if book is >75
+
+add home_advantage
+
+still to check what happens to a team after it's been out for a while. 
+
+ELO end of seasons seem to match. 
+
+did tuning and found out k just needed to be positive
+this means sov is useless, need to find a way to make it better
+
+not overfitting because kind of constant
+
+9% of matches are ties
+100-10% = 90%, 
+
+basically always losing on 10% of matches
+
+see if there's a way to remove teams if they don't appear again from the graphs
+that way there isn't a random line through the data
+
+
+HSN Nordhorn exists in the odds, but I don't ahve it bc no data for 2019 and 2020. 
+HSG Nordhorn-Lingen
+
+merging but the names of teams were different
+got that fixed
